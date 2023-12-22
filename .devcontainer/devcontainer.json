@@ -16,5 +16,6 @@
         "8443": {
             "label": "web https"
         }
-    }
+    },
+    "postCreateCommand": "chmod +x .devcontainer/setup_project.sh && .devcontainer/setup_project.sh"
 }
