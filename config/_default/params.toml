@@ -1,1 +1,3 @@
-foo = "bar"
+
+author = "Your Name"
+description = "My awesome Hugo site"
