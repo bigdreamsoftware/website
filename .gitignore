@@ -19,3 +19,5 @@ yarn-error.log
 *.tar.gz
 .phpunit.cache
 /tests/Coverage
+/public/
+.hugo_build.lock
