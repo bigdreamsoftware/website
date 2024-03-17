@@ -1,0 +1,20 @@
+baseURL = "http://example.com/"
+languageCode = "en-us"
+title = "My Hugo Site"
+theme = "risotto"
+
+enableEmoji = true
+
+
+[build]
+  duplicateResourceFiles = false
+  noJSConfigInAssets = false
+  useResourceCacheWhen = 'fallback'
+  [build.buildStats]
+    disableClasses = false
+    disableIDs = false
+    disableTags = false
+    enable = false
+[[build.cacheBusters]]
+    source = '(postcss|tailwind)\.config\.js'
+    target = '(css|styles|scss|sass)'

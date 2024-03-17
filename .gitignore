@@ -14,9 +14,10 @@ auth.json
 npm-debug.log
 yarn-error.log
 /.idea
-/.vscode
 *.tgz
 *.zip
 *.tar.gz
 .phpunit.cache
 /tests/Coverage
+/public/
+.hugo_build.lock
